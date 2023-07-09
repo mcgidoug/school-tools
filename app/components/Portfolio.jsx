@@ -7,50 +7,54 @@ import exampleImg4 from "../../public/images/4.jpg";
 
 const Portfolio = () => {
   return (
-    <div className=" text-white text-xl flex justify-center m-4 max-w-screen ">
-      <div className="bg-orange-700 grid grid-cols-2 gap-4 p-2 rounded-lg">
-        <div className="flex items-center justify-center p-4">
+    <div className=" text-black text-xl flex justify-center m-4 max-w-screen ">
+      <div className="text-sm bg-zinc-200 grid grid-cols-2 gap-4 p-2 rounded-lg">
+        <div className="flex items-center justify-center p-4 ">
           <div>
-            <p>img1</p>
             <Image
               src={exampleImg1}
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               alt="exampleimage1"
+              className="rounded-lg"
             />
+            <p>Cerc Creator</p>
           </div>
         </div>
         <div className="flex items-center justify-center p-4">
           <div>
-            <p>img2</p>
             <Image
               src={exampleImg2}
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               alt="exampleimage2"
+              className="rounded-lg"
             />
+            <p>Writing Guide</p>
           </div>
         </div>
         <div className="flex items-center justify-center p-4">
           <div>
-            <p>img3</p>
             <Image
               src={exampleImg3}
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               alt="exampleimage3"
+              className="rounded-lg"
             />
+            <p>Math Practice</p>
           </div>
         </div>
         <div className="flex items-center justify-center p-4">
           <div>
-            <p>img4</p>
             <Image
               src={exampleImg4}
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               alt="exampleimage4"
+              className="rounded-lg"
             />
+            <p>History Quiz</p>
           </div>
         </div>
       </div>
